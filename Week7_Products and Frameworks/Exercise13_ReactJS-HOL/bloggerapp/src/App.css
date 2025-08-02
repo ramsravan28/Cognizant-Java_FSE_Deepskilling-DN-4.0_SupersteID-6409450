@@ -1,0 +1,33 @@
+/* src/App.css */
+.App {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px;
+}
+
+.st2, .v1, .mystyle1 {
+  border-right: 2px solid green;
+  padding: 0 20px;
+}
+
+.st2:last-child, .v1:last-child, .mystyle1:last-child {
+  border-right: none;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4, p {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
